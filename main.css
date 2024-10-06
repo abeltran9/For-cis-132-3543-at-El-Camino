@@ -2,17 +2,11 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #FDF6E3; /* Light pastel yellow */
-  max-width: 80%;
-  margin: auto; /* Centers the layout */
+  margin: 0;
   padding: 0;
   color: #333;
-}
-
-main {
-  width: 70%;
-  float: left;
-  background-color: #FFF5E1; /* Soft pastel purple */
-  padding: 20px;
+  max-width: 80%; /* For a centered layout */
+  margin: auto; /* Centers the layout */
 }
 
 /* Header */
@@ -22,20 +16,12 @@ header {
   text-align: center;
 }
 
-aside {
-  width: 30%;
-  float: left;
-  background-color: #FFF5E1; /* Soft pastel pink */
-  padding: 20px;
-}
-
 /* Navigation menu */
 nav ul {
   background-color: #FFB7B2; /* Pastel pink */
   list-style-type: none;
-  padding: 10px;
+  padding: 0;
   text-align: center;
-  margin: 0;
 }
 
 nav ul li {
@@ -49,12 +35,19 @@ nav ul li a {
   font-weight: bold;
 }
 
-nav ul li a:hover {
-  color: white;
+/* Main section */
+main {
+  width: 70%;
+  float: left;
+  background-color: #FFF5E1; /* Soft pastel peach */
+  padding: 20px;
+  margin: 10px;
 }
 
-/* Section styling */
-section {
+/* Sidebar (Aside) */
+aside {
+  width: 30%;
+  float: left;
   background-color: #FFF5E1; /* Soft pastel peach */
   padding: 20px;
   margin: 10px;
@@ -65,4 +58,5 @@ footer {
   background-color: #C7CEEA; /* Soft pastel blue */
   padding: 10px;
   text-align: center;
+  clear: both;
 }
