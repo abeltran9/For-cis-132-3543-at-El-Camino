@@ -2,9 +2,17 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #FDF6E3; /* Light pastel yellow */
-  margin: 0;
+  max-width: 80%;
+  margin: auto; /* Centers the layout */
   padding: 0;
   color: #333;
+}
+
+main {
+  width: 70%;
+  float: left;
+  background-color: #FFF5E1; /* Soft pastel purple */
+  padding: 20px;
 }
 
 /* Header */
@@ -14,12 +22,20 @@ header {
   text-align: center;
 }
 
+aside {
+  width: 30%;
+  float: left;
+  background-color: #FFF5E1; /* Soft pastel pink */
+  padding: 20px;
+}
+
 /* Navigation menu */
 nav ul {
   background-color: #FFB7B2; /* Pastel pink */
   list-style-type: none;
-  padding: 0;
+  padding: 10px;
   text-align: center;
+  margin: 0;
 }
 
 nav ul li {
@@ -31,6 +47,10 @@ nav ul li a {
   text-decoration: none;
   color: #333;
   font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: white;
 }
 
 /* Section styling */
